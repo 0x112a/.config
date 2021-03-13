@@ -182,7 +182,7 @@ bar {
 }
 
 # myself config
-bindsym $mod+b exec chromium
+bindsym $mod+b exec google-chrome-stable
 
 exec_always sleep 5;xmodmap ~/.xmodmap
 exec_always feh --bg-scale ~/picture/tow.jpg
