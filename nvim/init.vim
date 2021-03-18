@@ -206,7 +206,7 @@ source ~/.config/nvim/snippits.vim
 "  \____\___/ \___|     \___\___/|_| |_|_| |_|\__, |
 "                                            |___/
 "
-let g:coc_global_extensions = ['coc-java','coc-json','coc-vimlsp','coc-marketplace','coc-go']
+let g:coc_global_extensions = ['coc-java','coc-json','coc-vimlsp','coc-marketplace']
 " 
 " Tab complete
 "
