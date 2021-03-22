@@ -190,6 +190,8 @@ exec_always feh --bg-scale ~/picture/tow.jpg
 exec_always sleep 2; fcitx
 exec_always sleep 3; qv2ray
 
+exec_always sleep 60; motrix
+
 new_window 1pixel
 
 #set inner/outer gaps

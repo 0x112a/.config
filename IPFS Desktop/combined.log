@@ -1,0 +1,65 @@
+2021-03-18T09:56:57.719Z info: [meta] logs can be found on /home/monica/.config/IPFS Desktop
+2021-03-18T09:56:59.352Z info: [web ui] window ready
+2021-03-18T09:56:59.352Z info: [web ui] navigate to /
+2021-03-18T09:56:59.359Z info: [tray] starting
+2021-03-18T09:56:59.434Z info: [tray] started
+2021-03-18T09:56:59.435Z info: [ipfsd] start daemon STARTED
+2021-03-18T09:57:06.292Z info: [daemon] PeerID is 12D3KooWKRcAHV12zKkEBBupGPWTphw7ZJcZHXvfgMK6rQmyyENT
+2021-03-18T09:57:06.293Z info: [daemon] Repo is at /home/monica/.ipfs
+2021-03-18T09:57:06.324Z info: [ipfsd] start daemon FINISHED 6.8888617489933965s
+2021-03-18T09:57:06.403Z info: [automatic gc] enabled
+2021-03-18T09:57:06.404Z info: [pubsub] disabled
+2021-03-18T09:57:06.404Z info: [ipns over pubsub] disabled
+2021-03-18T09:57:06.409Z info: [npm on ipfs] 1st time running and package is not installed
+2021-03-18T09:57:06.523Z info: [launch on startup] disabled
+2021-03-18T09:57:06.616Z info: [ipfs on path] no-sudo: stderr: internal/fs/utils.js:273
+    throw err;
+    ^
+
+Error: EACCES: permission denied, symlink '/tmp/.mount_ipfs-dcdSvr6/resources/app.asar.unpacked/src/ipfs-on-path/scripts/ipfs.sh' -> '/usr/local/bin/ipfs'
+    at Object.symlinkSync (fs.js:1099:3)
+    at Object.createSymlinkSync (/tmp/.mount_ipfs-dcdSvr6/resources/app.asar/node_modules/fs-extra/lib/ensure/symlink.js:55:25)
+    at Object.<anonymous> (/tmp/.mount_ipfs-dcdSvr6/resources/app.asar/src/ipfs-on-path/scripts/install.js:51:4)
+    at Module._compile (internal/modules/cjs/loader.js:1152:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1173:10)
+    at Module.load (internal/modules/cjs/loader.js:992:32)
+    at Module._load (internal/modules/cjs/loader.js:885:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12738)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  errno: -13,
+  syscall: 'symlink',
+  code: 'EACCES',
+  path: '/tmp/.mount_ipfs-dcdSvr6/resources/app.asar.unpacked/src/ipfs-on-path/scripts/ipfs.sh',
+  dest: '/usr/local/bin/ipfs'
+}
+2021-03-18T09:57:08.906Z info: [updater] update not available
+2021-03-18T10:00:58.077Z info: [web ui] window hidden
+2021-03-18T10:01:19.164Z info: [meta] logs can be found on /home/monica/.config/IPFS Desktop
+2021-03-18T10:01:20.607Z info: [web ui] window ready
+2021-03-18T10:01:20.608Z info: [web ui] navigate to /
+2021-03-18T10:01:20.611Z info: [tray] starting
+2021-03-18T10:01:20.663Z info: [tray] started
+2021-03-18T10:01:20.664Z info: [ipfsd] start daemon STARTED
+2021-03-18T10:01:21.144Z info: [daemon] removing api file
+2021-03-18T10:01:22.408Z info: [ipfsd] start daemon FINISHED 1.743964935004711s
+2021-03-18T10:01:22.489Z info: [automatic gc] enabled
+2021-03-18T10:01:22.489Z info: [pubsub] disabled
+2021-03-18T10:01:22.490Z info: [ipns over pubsub] disabled
+2021-03-18T10:01:22.493Z info: [ipfs on path] no action taken
+2021-03-18T10:01:22.494Z info: [launch on startup] disabled
+2021-03-18T10:02:03.539Z info: [meta] logs can be found on /home/monica/.config/IPFS Desktop
+2021-03-18T10:02:04.986Z info: [web ui] window ready
+2021-03-18T10:02:04.987Z info: [web ui] navigate to /
+2021-03-18T10:02:04.994Z info: [tray] starting
+2021-03-18T10:02:05.058Z info: [tray] started
+2021-03-18T10:02:05.059Z info: [ipfsd] start daemon STARTED
+2021-03-18T10:02:05.325Z info: [daemon] removing api file
+2021-03-18T10:02:06.829Z info: [ipfsd] start daemon FINISHED 1.7706635140180589s
+2021-03-18T10:02:06.897Z info: [automatic gc] enabled
+2021-03-18T10:02:06.897Z info: [pubsub] disabled
+2021-03-18T10:02:06.898Z info: [ipns over pubsub] disabled
+2021-03-18T10:02:06.901Z info: [ipfs on path] no action taken
+2021-03-18T10:02:06.902Z info: [launch on startup] disabled
+2021-03-18T10:04:16.368Z error: [updater] Error: net::ERR_CONNECTION_TIMED_OUT
+2021-03-18T11:38:31.518Z info: [web ui] window hidden

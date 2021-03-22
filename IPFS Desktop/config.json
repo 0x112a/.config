@@ -1,0 +1,30 @@
+{
+	"ipfsConfig": {
+		"type": "go",
+		"path": "/home/monica/.ipfs",
+		"flags": [
+			"--migrate",
+			"--enable-gc",
+			"--routing",
+			"dhtclient"
+		]
+	},
+	"language": "zh-CN",
+	"experiments": {
+		"npmOnIpfs": false
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "0.14.0"
+		}
+	},
+	"automaticGC": true,
+	"openWebUIAtLaunch": true,
+	"window": {
+		"width": 1600,
+		"height": 900
+	},
+	"ipfsOnPath": false,
+	"daemonConfigRevision": 1,
+	"checkedCorsConfig": true
+}

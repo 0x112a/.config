@@ -1,5 +1,5 @@
 [Configuration]
-FontName=Source Code Pro Semi-Bold 12
+FontName=Source Code Pro Semi-Bold 11
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -28,8 +28,10 @@ MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.130000
+BackgroundDarkness=0.300000
 TitleMode=TERMINAL_TITLE_HIDE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
-FontUseSystem=TRUE
+ColorForeground=#ffffffffffff
+TabActivityColor=#8f8ff0f0a4a4
+TextBlinkMode=TERMINAL_TEXT_BLINK_MODE_FOCUSED
 
