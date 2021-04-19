@@ -74,14 +74,19 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " treesitter
-Plug 'nvim-treesitter/nvim-treesitter'
+"Plug 'nvim-treesitter/nvim-treesitter'
+"Plug 'nvim-treesitter/playground'
 "vim-airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 "自动切换中英文
 Plug 'lilydjwg/fcitx.vim'
+" 显示RGB颜色
+Plug 'norcalli/nvim-colorizer.lua'
+" colorschemes
 call plug#end()
+
 
 
 "airline theme
@@ -96,15 +101,6 @@ let g:airline_theme='simple'
 " ===
 " === nvim-treesitter
 " ===
-lua <<EOF
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = {"typescript", "dart", "java"},     -- one of "all", "language", or a list of languages
-  highlight = {
-    enable = true,              -- false will disable the whole extension
-    disable = { "c", "rust" },  -- list of language that will be disabled
-  },
-}
-EOF
 " +++++++++++
 " Markdown-preview config
 " +++++++++++

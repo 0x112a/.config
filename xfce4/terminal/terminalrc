@@ -27,11 +27,11 @@ MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
-BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.300000
+BackgroundDarkness=0.420000
 TitleMode=TERMINAL_TITLE_HIDE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
-ColorForeground=#ffffffffffff
-TabActivityColor=#8f8ff0f0a4a4
 TextBlinkMode=TERMINAL_TEXT_BLINK_MODE_FOCUSED
+BackgroundImageShading=0.210000
+BackgroundImageFile=/home/monica/feh_034684_000001_OHR.LoganClouds_ZH-CN3900647104_1920x1080.jpg
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 
